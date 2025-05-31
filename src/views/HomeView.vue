@@ -78,12 +78,13 @@ export default {
   padding: 10px 5px;
 }
 .home-header .profile-photo {
-  background-color: #f0f0f0;
+  background-color: #e0e0e0;
   border-radius: 100%;
-  width: 50px;
-  height: 50px;
+  width: 50px !important;
+  height: 50px !important;
 }
 .home-header div span {
+  margin-left: 10px;
   font-size: 1.7em;
   font-weight: 800;
   color: #333;
