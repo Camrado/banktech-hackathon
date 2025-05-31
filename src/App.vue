@@ -12,6 +12,7 @@
 html,
 body {
   margin: 10px;
+  background-color: #f8f8f8;
 }
 
 #app {
