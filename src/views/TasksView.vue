@@ -19,7 +19,7 @@
     <h1>Tasks list</h1>
     <div class="button-row">
       <button class="btn rewards-btn">🎁 Rewards</button>
-      <button class="btn ranking-btn">🏆 Ranking</button>
+      <RouterLink to="/leaderboard" class="ranking-btn btn">🏆 Leaderboard</RouterLink>
     </div>
   </div>
 
@@ -178,6 +178,8 @@ export default {
 .ranking-btn {
   background: linear-gradient(135deg, #ffe8c7, #f6d49f);
   color: #8a5a00;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Level */

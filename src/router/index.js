@@ -8,10 +8,10 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/leaderboard',
+    name: 'leaderboard',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/AboutView.vue');
+      return import(/* webpackChunkName: "leaderboard" */ '../views/LeaderboardView.vue');
     }
   },
   {
