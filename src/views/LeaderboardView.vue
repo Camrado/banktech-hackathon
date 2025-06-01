@@ -194,9 +194,7 @@ export default {
 
 .leaderboard-container {
   font-family: 'Roboto', sans-serif;
-  background-color: #f5f7fa;
   min-height: 100vh;
-  padding: 0 10px;
 }
 
 .leaderboard-topbar {
