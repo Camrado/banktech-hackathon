@@ -32,7 +32,7 @@
   </article>
 
   <article class="home-tasks">
-    <h1>Tasks</h1>
+    <h1>MoneyUp</h1>
     <div>
       <RouterLink to="/tasks">Go to <span>Tasks</span> <img src="../assets/arrow-right.png" alt="Arrow Forward" /></RouterLink>
     </div>
