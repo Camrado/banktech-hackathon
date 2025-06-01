@@ -64,7 +64,7 @@ export default {
         },
         {
           icon: '💰',
-          title: 'Spend 10,000 AZN',
+          title: 'Spend 1,000 AZN',
           description: 'Hit your first spending milestone',
           completed: false
         },
