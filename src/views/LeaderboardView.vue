@@ -63,52 +63,52 @@ export default {
   created() {
     const businesses = [
       {
-        name: 'Ali (Beast Coffee)',
+        name: 'Beast Coffee',
         level: 10,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Ali%20(Beast%20Coffee)'
       },
       {
-        name: 'Kamran (CoffeeLea Khatai)',
+        name: 'CoffeeLea Khatai',
         level: 10,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Kamran%20(CoffeeLea%20Khatai)'
       },
       {
-        name: 'Medina (Cafe Botanist)',
+        name: 'Cafe Botanist',
         level: 9,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Medina%20(Cafe%20Botanist)'
       },
       {
-        name: 'Rustam (Coffee Moffee)',
+        name: 'Coffee Moffee',
         level: 9,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Rustam%20(Coffee%20Moffee)'
       },
       {
-        name: 'Gazanfar (Coffee la Rose)',
+        name: 'Coffee la Rose',
         level: 9,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Gazanfar%20(Coffee%20la%20Rose)'
       },
       {
-        name: 'Mahmud (Carrousel Cafe)',
+        name: 'Carrousel Cafe',
         level: 8,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Mahmud%20(Carrousel%20Cafe)'
       },
       {
-        name: 'Carlos (Rivera Cafe)',
+        name: 'Rivera Cafe',
         level: 8,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Carlos%20(Rivera%20Cafe)'
       },
       {
-        name: 'Nuray (Palma Cafe)',
+        name: 'Palma Cafe',
         level: 8,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Nuray%20(Palma%20Cafe)'
       },
       {
-        name: 'Bahar (Bahar Cafe)',
+        name: 'Bahar Cafe',
         level: 7,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Bahar%20(Bahar%20Cafe)'
       },
       {
-        name: 'Dmitriy (Book and Coffee)',
+        name: 'Book and Coffee',
         level: 7,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Dmitriy%20(Book%20and%20Coffee)'
       },
@@ -118,47 +118,47 @@ export default {
         avatar: this.currentUser.avatar // Current user
       },
       {
-        name: 'Ahmed (Friends Cafe)',
+        name: 'Friends Cafe',
         level: 5,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Ahmed%20(Friends%20Cafe)'
       },
       {
-        name: 'Ali (Barista&Chef)',
+        name: 'Barista&Chef',
         level: 4,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Ali%20(Barista%26Chef)'
       },
       {
-        name: 'Alekber (Jini Coffee)',
+        name: 'Jini Coffee',
         level: 4,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Alekber%20(Jini%20Coffee)'
       },
       {
-        name: 'Shukur (Milk Lab)',
+        name: 'Milk Lab',
         level: 3,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Shukur%20(Milk%20Lab)'
       },
       {
-        name: 'Elvin (White Cat Coffee)',
+        name: 'White Cat Coffee',
         level: 2,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Elvin%20(White%20Cat%20Coffee)'
       },
       {
-        name: 'Fatima (Coffee Go)',
+        name: 'Coffee Go',
         level: 1,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Fatima%20(Coffee%20Go)'
       },
       {
-        name: 'Jamal (Chaplin Coffee)',
+        name: 'Chaplin Coffee',
         level: 1,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Jamal%20(Chaplin%20Coffee)'
       },
       {
-        name: 'Umrud (Cuppa Coffee Baku)',
+        name: 'Cuppa Coffee Baku',
         level: 1,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Umrud%20(Cuppa%20Coffee%20Baku)'
       },
       {
-        name: 'Alesker (BoomBalamBuz)',
+        name: 'BoomBalamBuz',
         level: 1,
         avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Alesker%20(BoomBalamBuz)'
       }
