@@ -31,6 +31,13 @@
     </div>
   </article>
 
+  <article class="home-tasks">
+    <h1>Tasks</h1>
+    <div>
+      <RouterLink to="/tasks">Go to <span>Tasks</span> <img src="../assets/arrow-right.png" alt="Arrow Forward" /></RouterLink>
+    </div>
+  </article>
+
   <article class="new-info">
     <h1>Yeniliklər 🔥</h1>
     <div class="new-info__cards">
@@ -145,6 +152,50 @@ article.cards-section .cards-section__cards .cards-section__card div p:nth-child
   margin-top: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+}
+
+article.home-tasks {
+  margin-top: 50px;
+}
+
+article.home-tasks h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+article.home-tasks div {
+  display: flex;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+article.home-tasks div a {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-decoration: none;
+  color: #099a71;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article.home-tasks div a span {
+  margin-left: 5px;
+  color: #950a23;
+}
+
+article.home-tasks div a img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
 }
 
 article.new-info {

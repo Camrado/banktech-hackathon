@@ -51,10 +51,10 @@ export default {
   data() {
     return {
       currentUser: {
-        name: 'Kamal',
+        name: 'Kamal (Sigma Coffee)',
         avatar: require('../assets/profile-photo.svg'),
         rank: null,
-        level: 7
+        level: 1
       },
 
       entries: []
@@ -63,54 +63,54 @@ export default {
   created() {
     const businesses = [
       {
-        name: 'Lily James',
-        level: 15,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Lily%20James'
-      },
-      {
-        name: 'Mike Santiago',
-        level: 13,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Mike%20Santiago'
-      },
-      {
-        name: 'Rodney Holmes',
-        level: 12,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Rodney%20Holmes'
-      },
-      {
-        name: 'Nicholas Russell',
-        level: 11,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Nicholas%20Russell'
-      },
-      {
-        name: 'Devin Lane',
+        name: 'Ali (Beast Coffee)',
         level: 10,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Devin%20Lane'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Ali%20(Beast%20Coffee)'
       },
       {
-        name: 'Mary Gardner',
+        name: 'Kamran (CoffeeLea Khatai)',
         level: 10,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Mary%20Gardner'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Kamran%20(CoffeeLea%20Khatai)'
       },
       {
-        name: 'Carlos Rivera',
+        name: 'Medina (Cafe Botanist)',
         level: 9,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Carlos%20Rivera'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Medina%20(Cafe%20Botanist)'
       },
       {
-        name: 'Priya Sharma',
+        name: 'Rustam (Coffee Moffee)',
         level: 9,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Priya%20Sharma'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Rustam%20(Coffee%20Moffee)'
       },
       {
-        name: 'Aiko Tanaka',
-        level: 8,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Aiko%20Tanaka'
+        name: 'Gazanfar (Coffee la Rose)',
+        level: 9,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Gazanfar%20(Coffee%20la%20Rose)'
       },
       {
-        name: 'Omar Khalid',
+        name: 'Mahmud (Carrousel Cafe)',
         level: 8,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Omar%20Khalid'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Mahmud%20(Carrousel%20Cafe)'
+      },
+      {
+        name: 'Carlos (Rivera Cafe)',
+        level: 8,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Carlos%20(Rivera%20Cafe)'
+      },
+      {
+        name: 'Nuray (Palma Cafe)',
+        level: 8,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Nuray%20(Palma%20Cafe)'
+      },
+      {
+        name: 'Bahar (Bahar Cafe)',
+        level: 7,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Bahar%20(Bahar%20Cafe)'
+      },
+      {
+        name: 'Dmitriy (Book and Coffee)',
+        level: 7,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Dmitriy%20(Book%20and%20Coffee)'
       },
       {
         name: this.currentUser.name,
@@ -118,49 +118,49 @@ export default {
         avatar: this.currentUser.avatar // Current user
       },
       {
-        name: 'Jin Woo Park',
-        level: 6,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Jin%20Woo%20Park'
-      },
-      {
-        name: 'Sofia Rossi',
+        name: 'Ahmed (Friends Cafe)',
         level: 5,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Sofia%20Rossi'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Ahmed%20(Friends%20Cafe)'
       },
       {
-        name: 'Diego Martínez',
-        level: 5,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Diego%20Martínez'
-      },
-      {
-        name: 'Ana Silva',
-        level: 5,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Ana%20Silva'
-      },
-      {
-        name: 'Lucas Müller',
+        name: 'Ali (Barista&Chef)',
         level: 4,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Lucas%20Müller'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Ali%20(Barista%26Chef)'
       },
       {
-        name: 'Fatima Ibrahim',
+        name: 'Alekber (Jini Coffee)',
+        level: 4,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Alekber%20(Jini%20Coffee)'
+      },
+      {
+        name: 'Shukur (Milk Lab)',
         level: 3,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Fatima%20Ibrahim'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Shukur%20(Milk%20Lab)'
       },
       {
-        name: 'Jamal Thompson',
+        name: 'Elvin (White Cat Coffee)',
         level: 2,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Jamal%20Thompson'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Elvin%20(White%20Cat%20Coffee)'
       },
       {
-        name: 'Yuki Nakamura',
-        level: 2,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Yuki%20Nakamura'
-      },
-      {
-        name: 'Olivia Johnson',
+        name: 'Fatima (Coffee Go)',
         level: 1,
-        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Olivia%20Johnson'
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Fatima%20(Coffee%20Go)'
+      },
+      {
+        name: 'Jamal (Chaplin Coffee)',
+        level: 1,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Jamal%20(Chaplin%20Coffee)'
+      },
+      {
+        name: 'Umrud (Cuppa Coffee Baku)',
+        level: 1,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Umrud%20(Cuppa%20Coffee%20Baku)'
+      },
+      {
+        name: 'Alesker (BoomBalamBuz)',
+        level: 1,
+        avatar: 'https://api.dicebear.com/7.x/thumbs/svg?seed=Alesker%20(BoomBalamBuz)'
       }
     ];
 

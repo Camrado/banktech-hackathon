@@ -1,11 +1,10 @@
 <template>
-  <!-- Top Bar -->
   <header class="home-header">
     <div>
       <img src="../assets/profile-photo.svg" alt="Profile Photo" class="profile-photo" />
       <div>
         <span>Kamal</span>
-        <span>Bronze Member</span>
+        <span>Member</span>
       </div>
     </div>
 
@@ -14,16 +13,13 @@
     </div>
   </header>
 
-  <!-- Header -->
   <div class="header">
     <h1>Tasks list</h1>
     <div class="button-row">
-      <button class="btn rewards-btn">🎁 Rewards</button>
       <RouterLink to="/leaderboard" class="ranking-btn btn">🏆 Leaderboard</RouterLink>
     </div>
   </div>
 
-  <!-- Level & Progress -->
   <div class="level-section">
     <div class="level-info">
       <span>Level {{ level }}</span>
@@ -31,9 +27,6 @@
     </div>
     <div class="progress-bar">
       <div class="progress-fill" :style="{ width: progress + '%' }"></div>
-    </div>
-    <div class="reward-preview">
-      🎁 Current Reward: <strong>{{ currentReward }}</strong>
     </div>
   </div>
 
@@ -131,7 +124,7 @@ export default {
 .home-header div div span:nth-child(2) {
   font-size: 1.2em;
   font-weight: 400;
-  color: #b87333;
+  color: #666;
 }
 .home-header div {
   display: flex;
@@ -143,7 +136,6 @@ export default {
   cursor: pointer;
 }
 
-/* Header */
 .header h1 {
   font-size: 22px;
   font-weight: 600;
@@ -182,7 +174,6 @@ export default {
   text-decoration: none;
 }
 
-/* Level */
 .level-section {
   background-color: #ffffff;
   border-radius: 16px;
@@ -222,7 +213,6 @@ export default {
   transition: width 0.4s ease;
 }
 
-/* Tasks */
 .task-list {
   display: flex;
   flex-direction: column;
