@@ -102,7 +102,6 @@ export default {
 .home-header img:nth-child(2) {
   width: 25px;
   height: 25px;
-  margin-right: 10px;
 }
 .home-header img {
   cursor: pointer;
